@@ -5,6 +5,7 @@ Replaces bio.site. Built in Lovable.
 - **Project:** `c7cfa683-95f0-4a2d-9fa5-648ebb08cfed`
 - **Workspace:** Jon's Lovable (`ECcWAIZHdxSVUFPH02j4`, Pro)
 - **Editor:** https://lovable.dev/projects/c7cfa683-95f0-4a2d-9fa5-648ebb08cfed
+- **Live site:** https://primepickdailystore.lovable.app
 - **Preview:** https://id-preview--c7cfa683-95f0-4a2d-9fa5-648ebb08cfed.lovable.app
 
 ---
@@ -118,3 +119,47 @@ sends buyers, not just viewers.
       control to compare against for a month)
 - [ ] Email delivery for the subscriber list — capture works, sending does not
       exist yet
+
+---
+
+## LIVE — published 23 Aug 2026
+
+**https://primepickdailystore.lovable.app**
+
+### Seeded with the real top 10 (by actual click volume)
+
+| # | Product | Clicks | URL |
+|---|---|---|---|
+| 1 | Countertop Water Bottle Dispenser | 1,613 | `/water-dispenser` |
+| 2 | Rolling Christmas Tree Storage | 906 | `/tree-storage` |
+| 3 | simplehuman XL Pet Food Container | 747 | `/pet-food` |
+| 4 | Wagon → 2-Person Chair | 610 | `/wagon-chair` |
+| 5 | 5-Gallon Water Jug Pump | 480 | `/jug-pump` |
+| 6 | ANTBOX Shoe Organizer | 355 | `/shoe-rack` |
+| 7 | Folding Lounge, Humans + Pets | 338 | `/pet-lounge` |
+| 8 | KU XIU 3-in-1 Charger | 324 | `/charger` |
+| 9 | Joseph Joseph Spice Rack | 284 | `/spice-rack` |
+| 10 | Innovia Paper Towel Dispenser | 271 | `/paper-towel` |
+
+### Interim links
+Amazon is unreachable from the build environment, so `amazon_url` uses
+**tagged Amazon search links**:
+
+```
+https://www.amazon.com/s?k=<product+name>&tag=pfeiffer2-20
+```
+
+These are valid Associates links and earn commission today. Swap for direct
+`/dp/<ASIN>?tag=pfeiffer2-20` links as ASINs come in — direct links convert
+better than a search results page.
+
+### Images
+`image_url` is empty on all 10. The site renders a designed category
+placeholder instead. Replace with real listing photos when available.
+
+### Update the bios to point here
+- [ ] Instagram bio → `https://primepickdailystore.lovable.app/?src=igbio`
+- [ ] TikTok bio → `?src=tiktok`
+- [ ] YouTube about/description → `?src=yt`
+- [ ] Pinterest → `?src=pin`
+- [ ] Leave bio.site live for ~30 days as a control, then redirect
