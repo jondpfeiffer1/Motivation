@@ -102,3 +102,42 @@ zero and that's capping every video.
 Dropping to 12s on Cinema Studio v2 costs 14/video = **420/month**, leaving
 real headroom. Worth testing whether 12s performs as well as 15s before
 committing the whole budget to length.
+
+---
+
+## Delivered files
+
+**Video (15s, 1080p, 9:16):**
+https://d8j0ntlcm91z4.cloudfront.net/user_3BS4QwSWGvzraaxEX3W4To5MSsJ/hf_20260823_214726_29364388-0808-4c46-85ee-556d12237318.mp4
+
+**Start frame (2K):**
+https://d8j0ntlcm91z4.cloudfront.net/user_3BS4QwSWGvzraaxEX3W4To5MSsJ/hf_20260823_214640_8112f713-608c-4202-94a3-2a8f8a4ff272.png
+
+Job ids: video `29364388-0808-4c46-85ee-556d12237318`,
+image `8112f713-608c-4202-94a3-2a8f8a4ff272`
+
+Balance moved 312.25 -> 280.25, confirming the 32-credit estimate exactly.
+
+---
+
+## ⚠️ QA gate NOT run — Jon must check this himself
+
+The Higgsfield CDN is blocked by this environment's egress proxy, so the
+frame-by-frame QA promised in the playbook could not be performed here.
+**I have not seen this video.** Check it before posting:
+
+- [ ] Exactly ONE pump and ONE jug — no duplicates appearing mid-clip
+- [ ] The tube stays physically connected to both the pump and the glass
+- [ ] Water behaves like water; the glass does not overfill or refill oddly
+- [ ] No people, hands, or faces enter the frame at any point
+- [ ] No invented text, logos, or labels on the product
+- [ ] The jug never appears to be lifted — that claim is the whole video
+- [ ] Nothing morphs or warps during the camera moves (the usual failure mode)
+
+If any of these fail, say so and I will re-roll. A re-roll is 30 credits.
+
+### The AI-footage caveat, restated
+This product frame is AI-generated, not the real listing photo. For a generic
+unbranded pump that is representative of the category, but it is NOT the exact
+item a buyer receives. Send a real listing image URL and I will re-render
+against it — that is the safer long-term path for every video.
