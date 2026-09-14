@@ -1,0 +1,126 @@
+{
+  "_README": "The daily task reads this file. Add image_url for each product (Amazon listing photo: right-click main image -> Copy image address). A product with no image_url is SKIPPED, never faked. Set status to 'done' after it has been posted.",
+  "_store_id": "pfeiffer2-20",
+  "products": [
+    {
+      "slug": "water-dispenser",
+      "title": "Countertop Water Bottle Dispenser",
+      "hook": "Never lift the 5-gallon jug again",
+      "magic_trick": "The jug never leaves the floor. One press and the glass fills.",
+      "category": "Kitchen",
+      "day": "Fri",
+      "proven_clicks": 1613,
+      "image_url": "",
+      "amazon_url": "",
+      "status": "ready"
+    },
+    {
+      "slug": "tree-storage",
+      "title": "Rolling Christmas Tree Storage Bag",
+      "hook": "Fits trees up to 15 feet, wheels into the garage",
+      "magic_trick": "A 15-foot tree swallowed whole, then wheeled away one-handed.",
+      "category": "Storage",
+      "day": "Sun",
+      "proven_clicks": 906,
+      "image_url": "",
+      "amazon_url": "",
+      "status": "ready"
+    },
+    {
+      "slug": "pet-food",
+      "title": "simplehuman XL Pet Food Container",
+      "hook": "A whole 40lb bag, sealed and scoopable",
+      "magic_trick": "The entire bag disappears in one pour and the dog can't get in.",
+      "category": "Pets",
+      "day": "Wed",
+      "proven_clicks": 747,
+      "image_url": "",
+      "amazon_url": "",
+      "status": "ready"
+    },
+    {
+      "slug": "wagon-chair",
+      "title": "Wagon That Converts Into a 2-Person Chair",
+      "hook": "Hauls your gear, then becomes the seating",
+      "magic_trick": "The wagon unfolds into a bench you actually sit on.",
+      "category": "Outdoor",
+      "day": "Sat",
+      "proven_clicks": 610,
+      "image_url": "",
+      "amazon_url": "",
+      "status": "ready"
+    },
+    {
+      "slug": "jug-pump",
+      "title": "5-Gallon Water Jug Pump",
+      "hook": "USB rechargeable, fits any bottle",
+      "magic_trick": "One press, water arcs into the glass, nothing gets lifted.",
+      "category": "Kitchen",
+      "day": "Mon",
+      "proven_clicks": 480,
+      "image_url": "",
+      "amazon_url": "",
+      "status": "ready"
+    },
+    {
+      "slug": "shoe-rack",
+      "title": "ANTBOX Stackable Shoe Organizer",
+      "hook": "Stacks as high as your closet allows",
+      "magic_trick": "Boxes click together into a tower that holds 36 pairs.",
+      "category": "Storage",
+      "day": "Tue",
+      "proven_clicks": 355,
+      "image_url": "",
+      "amazon_url": "",
+      "status": "ready"
+    },
+    {
+      "slug": "pet-lounge",
+      "title": "Folding Lounge Chair for Humans and Pets",
+      "hook": "Five recline positions, folds flat",
+      "magic_trick": "Folds from flat board to full lounger in one motion.",
+      "category": "Pets",
+      "day": "Thu",
+      "proven_clicks": 338,
+      "image_url": "",
+      "amazon_url": "",
+      "status": "ready"
+    },
+    {
+      "slug": "charger",
+      "title": "KU XIU X40 3-in-1 Magnetic Charger",
+      "hook": "Phone, watch and buds on one folding stand",
+      "magic_trick": "Unfolds from a puck the size of a coaster into three chargers.",
+      "category": "Tech",
+      "day": "",
+      "proven_clicks": 324,
+      "image_url": "",
+      "amazon_url": "",
+      "status": "ready"
+    },
+    {
+      "slug": "spice-rack",
+      "title": "Joseph Joseph Under-Shelf Spice Rack",
+      "hook": "Pulls down from under the cabinet shelf",
+      "magic_trick": "Hidden under the shelf, then swings down fully loaded.",
+      "category": "Kitchen",
+      "day": "",
+      "proven_clicks": 284,
+      "image_url": "",
+      "amazon_url": "",
+      "status": "ready"
+    },
+    {
+      "slug": "paper-towel",
+      "title": "Innovia Touchless Paper Towel Dispenser",
+      "hook": "Wave your hand, it cuts the sheet",
+      "magic_trick": "Hand waves, a sheet feeds and cuts itself.",
+      "category": "Kitchen",
+      "day": "",
+      "proven_clicks": 271,
+      "image_url": "",
+      "amazon_url": "",
+      "status": "ready"
+    }
+  ]
+}
