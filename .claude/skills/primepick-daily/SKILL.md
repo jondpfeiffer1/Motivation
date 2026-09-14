@@ -50,26 +50,46 @@ generate a substitute.
 **Preflight the cost first** with `get_cost: true`, every time. Model prices
 change and a surprise 150-credit charge is unacceptable.
 
-Primary model (pending Jon's approval after the first test):
+**Quality is the priority. Jon's instruction: it has to be realistic and it has
+to look good.** Seedance is the default. It is expensive; that is accepted.
 
 | Param | Value |
 |---|---|
-| model | `veo3_1_lite` |
+| model | `seedance_2_5` |
 | aspect_ratio | `9:16` |
-| duration | `8` |
+| resolution | `1080p` |
+| mode | `omni_reference` |
 | generate_audio | `true` |
-| medias | the imported photo as `start_image` |
+| duration | `10` default, `15` when the script needs it |
+| medias | the imported real photo |
 
-~12 credits. Veo renders native audio including speech, so no separate TTS call.
+Seedance renders the female voiceover natively — no separate TTS call, no
+lip-sync, nobody on camera.
 
-**Fallbacks, in order, only if Veo fails the quality bar:**
+### Measured cost
+| Spec | Credits |
+|---|---|
+| Storyboard `gpt_image_2` 21:9 2k high | 7 |
+| De-slop `seedream_v5_pro` 21:9 2k | 3 |
+| Seedance 10s 1080p + audio | 90 |
+| Seedance 15s 1080p + audio | 135 |
+| **Total, 10s** | **100** |
+| **Total, 15s** | **145** |
 
-| Model | Spec | Credits |
-|---|---|---|
-| `seedance_2_5` | 10s 1080p omni_reference + audio | 90 |
-| `seedance_2_5` | 15s 1080p omni_reference + audio | 135 |
+**This does not support daily on a 1,000-credit plan.** ~10 videos/month at 10s.
+Post 2-3 times a week at this quality, or move to Ultra (3,000/mo) for daily.
+Never silently downgrade the model to fit a cadence — ask Jon.
 
-Seedance is 8–11x the cost. Use it only for a weekly hero, never by default.
+### Cheaper fallback, only if Jon approves it for a given run
+`veo3_1_lite`, 8s, 9:16, `generate_audio: true`, real photo as `start_image`
+— 12 credits. Untested for realism. Never substitute it to save money without
+being told to.
+
+### The de-slop pass is mandatory
+Never feed a raw `gpt_image_2` storyboard to Seedance. Run the
+`seedream_v5_pro` realism pass first. That pass is what removes waxy skin,
+HDR bloom, oversharpening and the plastic AI look — it is the difference
+between "realistic" and "obviously generated".
 
 ### Voice
 Warm, natural, conversational American woman, mid-30s. Describe it in the
