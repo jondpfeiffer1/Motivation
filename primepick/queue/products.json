@@ -10,9 +10,10 @@
       "category": "Kitchen",
       "day": "Fri",
       "proven_clicks": 1613,
-      "image_url": "",
+      "image_url": "https://m.media-amazon.com/images/I/61QsCs7QlhL._AC_SL1500_.jpg",
       "amazon_url": "",
-      "status": "ready"
+      "status": "posted",
+      "gate_word": "POUR"
     },
     {
       "slug": "tree-storage",
