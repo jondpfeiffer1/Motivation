@@ -85,6 +85,42 @@ Never silently downgrade the model to fit a cadence — ask Jon.
 — 12 credits. Untested for realism. Never substitute it to save money without
 being told to.
 
+### THE LOCKED RECIPE — approved by Jon 15 Sep 2026
+
+This exact configuration produced the first video Jon accepted. Do not deviate
+without being told to.
+
+| Setting | Value | Why |
+|---|---|---|
+| Duration | **15s** | 10s forced beats too short to show change |
+| Beats | **3 x 5s**, hard cuts | 2.5s beats produced static, lifeless shots |
+| Board panels | **3**, matching the beats | |
+| Glass / product state | **starts EMPTY** | v1 started two-thirds full, so nothing could visibly change |
+| Camera | **handheld, continuous natural sway** | "locked and static" produced animated stills |
+| Setting | **lived-in home, not styled** | dish towel, mismatched mugs, ordinary daylight |
+| People | hand + forearm only, never a face | |
+
+**The three-beat arc:**
+1. **Beat 1 (0-5s)** — Wide, off-level. Product in its real context, in its
+   starting state. Hand reaches in from the bottom of frame.
+2. **Beat 2 (5-10s)** — Close. The hand operates the mechanism. Include one
+   physical tell that is hard to fake: a fingertip pad flattening and whitening
+   under pressure, a latch giving, fabric compressing.
+3. **Beat 3 (10-15s)** — Tight. **The change happens here and must be
+   continuous and unmistakable across the whole beat.** State it in capitals in
+   the prompt, describe the start and end states explicitly, and add "do not
+   hold [the thing] at a constant level/position at any point."
+
+**Audio:** one warm, natural, conversational American woman, mid-thirties,
+relaxed and slightly amused, OFF-SCREEN voiceover only, no lip-sync. Add a real
+physical sound that tracks the change — pour pitch rising as a glass fills,
+a zip closing, wheels on a floor. Room tone underneath. No music.
+
+**Two failures to never repeat:**
+- Never write "locked / static camera" — it kills the realism.
+- Never let the de-slop prompt alter the state being demonstrated. Tell it
+  explicitly not to change how full / open / folded the product is.
+
 ### The de-slop pass is mandatory
 Never feed a raw `gpt_image_2` storyboard to Seedance. Run the
 `seedream_v5_pro` realism pass first. That pass is what removes waxy skin,
