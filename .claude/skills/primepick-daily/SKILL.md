@@ -217,3 +217,64 @@ depend on views.
 - Put a person on camera
 - Skip the cost preflight
 - Spend more than ~35 credits on a routine daily video without asking
+
+
+---
+
+## THE FOUR DELIVERABLES — every single run, no exceptions
+
+Jon's standing instruction: everything made must ship all four. A run that
+produces only some of these is incomplete.
+
+1. **The video** — 15s, the locked recipe above
+2. **The captions** — Instagram, TikTok, YouTube Shorts, Pinterest, plus the
+   first-person YouTube title and the pinned comment
+3. **The product live on Lovable** — row inserted, `/<slug>` resolving, real
+   listing photo set, ASIN set if known
+4. **Built to travel** — the virality checklist below, applied not assumed
+
+---
+
+## Built to travel — the levers that actually move reach
+
+From the outlier research: posts beating their creator's own median by
+18x-1,974x in this exact niche.
+
+### The comment gate is the single biggest lever
+Four of the six top Instagram outliers use it. Jon's account sits at **zero
+comments**, and comments are the strongest ranking signal on Shorts and Reels.
+
+- One short all-caps word, tied to the product (`POUR`, `RICE`, `KIBBLE`)
+- **Caption only, never on screen** — the 4.2M reel has no on-screen CTA in any
+  frame
+- Phrase it as an offer, not a demand: "Write POUR and I'll send you the link"
+
+### The first second decides everything
+The product must already be mid-action in frame one. No reveal, no context, no
+logo. Four hook types that work:
+1. **Instant proof** — the mechanism working immediately
+2. **Stakes** — "This will save your marriage"
+3. **Doubt** — "He didn't believe her"
+4. **POV** — "POV: you stop mopping forever"
+
+### Lead with the magic trick, not the main function
+The 4.2M reel is a cutting board that opens on **ice melting**. Ask of every
+product: what does it do that looks like a trick? That is beat one, whatever
+the product is nominally for.
+
+The water dispenser's magic trick was never "it pumps water" — it was **it
+measures the amount for you**. No competitor leads with that.
+
+### Everything else
+- **Music only or voiceover — never silence.** Trending audio from frame one.
+- **Reply to every comment in the first hour.** Early velocity drives reach.
+- **Pin a comment** with an easy question immediately after posting.
+- **YouTube Shorts first.** 10,716 views in 23 days on a 14-subscriber channel,
+  outperforming Instagram 4-17x on identical videos.
+- **Never a synthetic person.** The AI-presenter era collapsed Instagram reach
+  ~95%. Product only.
+
+### What cannot be promised
+Virality is not a switch. These levers are what the data says moves the odds,
+applied every time. Never tell Jon a video will go viral — ship the levers and
+let the numbers report back.
