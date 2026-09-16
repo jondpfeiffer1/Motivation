@@ -12,8 +12,7 @@
       "proven_clicks": 1613,
       "image_url": "https://m.media-amazon.com/images/I/61QsCs7QlhL._AC_SL1500_.jpg",
       "amazon_url": "",
-      "status": "posted",
-      "gate_word": "POUR"
+      "status": "posted"
     },
     {
       "slug": "tree-storage",
@@ -123,5 +122,6 @@
       "amazon_url": "",
       "status": "ready"
     }
-  ]
+  ],
+  "_CTA_RULE": "Always \"link in bio\". Never a comment gate - Jon has no DM automation. Pair with an easy question to draw comments without owing replies."
 }

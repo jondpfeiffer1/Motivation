@@ -163,9 +163,9 @@ seamless, effortless, "Hey guys".
 
 **On-screen text cards**, lowercase serif, rotating position, no CTA on screen.
 
-**Gate word** — one short all-caps word tied to the product, in the caption
-only. Never on screen. This is the single biggest lever on comments, which are
-currently near zero and capping distribution.
+**CTA** — always "link in bio", caption only, never on screen. No comment
+gates: Jon has no DM automation. Pair it with an easy question to draw comments
+without owing anyone a reply.
 
 **Captions** for Instagram, TikTok, YouTube Shorts, Pinterest. YouTube title in
 first person ("The couch stain that haunted me is GONE" style — that rewrite
@@ -240,14 +240,28 @@ produces only some of these is incomplete.
 From the outlier research: posts beating their creator's own median by
 18x-1,974x in this exact niche.
 
-### The comment gate is the single biggest lever
-Four of the six top Instagram outliers use it. Jon's account sits at **zero
-comments**, and comments are the strongest ranking signal on Shorts and Reels.
+### CTA: always "link in bio" — never a comment gate
 
-- One short all-caps word, tied to the product (`POUR`, `RICE`, `KIBBLE`)
-- **Caption only, never on screen** — the 4.2M reel has no on-screen CTA in any
-  frame
-- Phrase it as an offer, not a demand: "Write POUR and I'll send you the link"
+**Jon's standing instruction (16 Sep 2026): no comment-gate CTAs.** He has no
+DM automation, so promising to send a link on request creates fulfilment work
+he will not sustain. Never write "comment X and I'll send it" in any caption.
+
+Every caption uses **"link in bio"** and nothing else as the CTA.
+
+**But still ask a question.** Comments are the strongest ranking signal on
+Shorts and Reels and Jon's account sits at zero. The fix that costs him nothing
+is a genuine, easy-to-answer question in the caption and in the pinned first
+comment — one that invites an opinion, not a request:
+
+- "what would you use the 100ml setting for?"
+- "am I the only one who was doing this the hard way?"
+- "what's the one thing in your kitchen you'd replace first?"
+
+That harvests most of the engagement benefit with **zero fulfilment burden**,
+because nobody is owed a reply with a link.
+
+Keep the CTA out of the video itself — caption only. The 4.2M outlier has no
+on-screen CTA in any frame.
 
 ### The first second decides everything
 The product must already be mid-action in frame one. No reveal, no context, no
