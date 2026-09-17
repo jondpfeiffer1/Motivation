@@ -40,15 +40,20 @@
     },
     {
       "slug": "wagon-chair",
-      "title": "Wagon That Converts Into a 2-Person Chair",
-      "hook": "Hauls your gear, then becomes the seating",
-      "magic_trick": "The wagon unfolds into a bench you actually sit on.",
+      "title": "Two-Seat Folding Wagon Stroller",
+      "hook": "The seats fold flat and it becomes a cargo wagon",
+      "magic_trick": "Both bench seats fold flat, turning the stroller into an open cargo wagon.",
       "category": "Outdoor",
       "day": "Sat",
       "proven_clicks": 610,
-      "image_url": "",
+      "image_url": "https://m.media-amazon.com/images/I/71RaMpV3BJL._AC_SL1500_.jpg",
       "amazon_url": "",
-      "status": "ready"
+      "status": "posted",
+      "extra_media_ids": [
+        "eda51a92-ef1e-4244-a680-07557cb1dc2c",
+        "e652e090-5e59-42d6-94f8-f74009397765",
+        "3d0f6f2b-6f4f-4808-8551-10151954f8f9"
+      ]
     },
     {
       "slug": "jug-pump",
