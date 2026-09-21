@@ -39,3 +39,12 @@ yarn-error.*
 # generated native folders
 /ios
 /android
+
+# Secrets — never commit
+.env
+.env.*
+!.env.example
+*.pem
+secrets/
+**/credentials.json
+**/service-account*.json
