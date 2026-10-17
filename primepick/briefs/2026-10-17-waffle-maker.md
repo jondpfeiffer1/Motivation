@@ -25,8 +25,14 @@ which caused it. Verified sequence: `primepick/products/waffle-maker-BW1001-oper
 | 5-10 | Beep, green light, front swings open, tongs lift the waffle | closed -> open, waffle released |
 | 10-15 | Syrup poured on the plated waffle | squares fill pocket by pocket |
 
-## v2 — proposed, waiting on Jon's approval (no credits spent)
+## v2 — approved by Jon and rendered 17 Oct
 Built only from the verified footage.
+
+**Video:** https://d8j0ntlcm91z4.cloudfront.net/user_3BS4QwSWGvzraaxEX3W4To5MSsJ/hf_20261017_204716_1e2c3155-8573-4795-b693-2f729c8d6457.mp4
+
+**Storyboard:** https://d8j0ntlcm91z4.cloudfront.net/user_3BS4QwSWGvzraaxEX3W4To5MSsJ/hf_20261017_204430_65bf37bf-7289-40d0-9e25-69511b5c6e55.png
+
+**De-slopped storyboard:** https://d8j0ntlcm91z4.cloudfront.net/user_3BS4QwSWGvzraaxEX3W4To5MSsJ/hf_20261017_204553_4d2c9fc6-4327-4420-96aa-3d2460166c18.png
 
 | Time | Shot | The change |
 |---|---|---|
@@ -44,7 +50,7 @@ readable text on the funnel, a face.
 > the front down, and it lifts right out. And it's barely six and a half inches wide."
 
 ### Spend (v2)
-Board 6.5 + de-slop 2.5 + Seedance 2.5 15s 1080p 240 = **249** (preflight first).
+Board 6.5 + de-slop 2.5 + Seedance 2.5 15s 1080p 240 = **249**. Preflighted at 240 before submitting; balance before the render was 1,026.25.
 
 ## Voiceover (v1)
 > "You pour the batter in the top like a coffee maker. It beeps when it's done,
