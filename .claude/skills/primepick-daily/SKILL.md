@@ -309,3 +309,18 @@ Seedance prices rose. Preflighted on 17 Oct:
 render went through when 135 was expected. Run `get_cost: true` with the exact
 final params immediately before every Seedance submission, and if the figure is
 above what Jon last approved, stop and tell him before spending.
+
+---
+
+## RULE — verify how it works from real footage before any render (17 Oct 2026)
+
+For any product with a moving part, a latch, a lid, a fold, a dispense, or an
+open/close step: **find and watch real demo footage first** (vidIQ
+`vidiq_video_watch` on a YouTube review, `vidiq_watch_shortform_content` on a
+TikTok/Reel demo). Write a step-by-step operation file in `primepick/products/`
+and show it to Jon **before** spending any generation credits.
+
+Listing photos show end states, not mechanics. On 17 Oct the waffle-maker render
+had the front plate open by itself; in reality a thumb presses a release on the
+left handle and a hand pulls the plate down 90 degrees. Jon rejected the video as
+not production-ready. Never describe a mechanism from still photos alone.
