@@ -13,14 +13,40 @@
 
 **Source photos (Jon's):** `43f2b312…`, `c7e32607…`, `33d049b9…`, `770d14a1…`
 
-## Beats
+## v1 — REJECTED by Jon, 17 Oct
+The front plate opened on its own. On the real machine a hand presses the release on
+the left handle and pulls the front plate down. The prompt said "front swings open",
+which caused it. Verified sequence: `primepick/products/waffle-maker-BW1001-operation.md`.
+
+### v1 beats (do not reuse)
 | Time | Shot | The change |
 |---|---|---|
 | 0-5 | Batter poured from the PrecisionPour cup into the top spout | batter level in the cup drops |
 | 5-10 | Beep, green light, front swings open, tongs lift the waffle | closed -> open, waffle released |
 | 10-15 | Syrup poured on the plated waffle | squares fill pocket by pocket |
 
-## Voiceover
+## v2 — proposed, waiting on Jon's approval (no credits spent)
+Built only from the verified footage.
+
+| Time | Shot | The change |
+|---|---|---|
+| 0-5 | Machine CLOSED and UPRIGHT, red light on. One continuous pour from the black cup into the open top funnel | batter level in the cup drops; batter disappears into the funnel |
+| 5-10 | Green light. Thumb PRESSES the release on the LEFT handle (fingertip flattens), the hand PULLS the front plate FORWARD AND DOWN until it lies flat; waffle revealed on the front plate, steam rising | plate angle goes from vertical to flat in one continuous move, driven by the hand |
+| 10-15 | Hard cut: plated waffle (four quadrants, small batter tab on one edge), syrup poured | squares fill pocket by pocket |
+
+**Forbidden in the prompt:** the front opening by itself, any top lid, a clamshell flip,
+readable text on the funnel, a face.
+**Sound:** pour glug, three beeps, release click, soft hinge creak, syrup drizzle.
+**Removal:** skipped. The hard cut to the plate means the model never has to animate tongs.
+
+### Voiceover (v2)
+> "You pour the batter in the top like a coffee maker. It beeps when it's done, you pull
+> the front down, and it lifts right out. And it's barely six and a half inches wide."
+
+### Spend (v2)
+Board 6.5 + de-slop 2.5 + Seedance 2.5 15s 1080p 240 = **249** (preflight first).
+
+## Voiceover (v1)
 > "You pour the batter in the top like a coffee maker. It beeps when it's done,
 > and the whole waffle just slides out. And it's barely six and a half inches wide."
 
@@ -36,7 +62,7 @@
 ### Instagram
 > you pour the batter in the TOP 🧇
 >
-> it beeps when it's done, the whole waffle slides right out, and it takes up barely 6.5 inches of counter. saturday mornings just got a lot easier.
+> it beeps when it's done, you pull the front down and the whole waffle lifts right out, and it takes up barely 6.5 inches of counter. saturday mornings just got a lot easier.
 >
 > 🔗 affiliate link in bio
 >
@@ -55,7 +81,7 @@
 
 ### YouTube Shorts
 **Title:** `I didn't know you could pour waffle batter in the top`
-> Pour the batter into the top, it beeps when it's done, and the waffle slides out. It's only 6.57 inches wide, so it fits on a crowded counter.
+> Pour the batter into the top, it beeps when it's done, then pull the front down and the waffle lifts right out. It's only 6.57 inches wide, so it fits on a crowded counter.
 >
 > https://primepickdailystore.lovable.app/waffle-maker?src=yt
 >
@@ -78,7 +104,7 @@ this model.
 
 ## QA — Jon must run this (the CDN is blocked; not seen here)
 1. **Does batter visibly pour INTO the top spout in beat 1?**
-2. Does the front open and the waffle lift out in beat 2?
+2. **Does a thumb press the left-handle release and the hand pull the front plate down to flat in beat 2? It must never open by itself.**
 3. **Does syrup visibly fill more squares across beat 3?**
 4. Machine matches the photos — upright, stainless door, dial on the base?
 5. No garbled lettering on the door; no face ever; camera has handheld sway.
