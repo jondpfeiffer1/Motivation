@@ -3,6 +3,24 @@
   "_store_id": "pfeiffer2-20",
   "products": [
     {
+      "slug": "waffle-maker",
+      "title": "Ninja Vertical Waffle Maker",
+      "hook": "Pour the batter in the top. It beeps when it's done.",
+      "magic_trick": "Batter poured into the top of an upright machine; a full Belgian waffle slides out.",
+      "category": "Kitchen",
+      "day": "",
+      "proven_clicks": 0,
+      "image_url": "https://m.media-amazon.com/images/I/81SutOkbbUL._AC_SL1500_.jpg",
+      "amazon_url": "https://amzn.to/4i2FVpN",
+      "media_ids": [
+        "43f2b312-02d1-4b18-ac65-a0f98cd6b9ca",
+        "c7e32607-5d69-4e4d-90e4-5198cdbbf194",
+        "33d049b9-111f-4743-9cc9-8a5be3245a85",
+        "770d14a1-81e5-4314-b66b-db0ea4f145fb"
+      ],
+      "status": "posted"
+    },
+    {
       "slug": "water-dispenser",
       "title": "Countertop Water Bottle Dispenser",
       "hook": "Never lift the 5-gallon jug again",

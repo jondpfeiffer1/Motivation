@@ -292,3 +292,20 @@ measures the amount for you**. No competitor leads with that.
 Virality is not a switch. These levers are what the data says moves the odds,
 applied every time. Never tell Jon a video will go viral — ship the levers and
 let the numbers report back.
+
+---
+
+## PRICE CHECK — 17 Oct 2026 (overrides older cost figures above)
+
+Seedance prices rose. Preflighted on 17 Oct:
+
+| Seedance 2.5 | Credits |
+|---|---|
+| 15s · 1080p | **240** (was 135) |
+| 15s · 720p | **105** |
+| 10s · 1080p | 160 |
+
+**The cost preflight is not optional.** It was skipped on 17 Oct and a 240-credit
+render went through when 135 was expected. Run `get_cost: true` with the exact
+final params immediately before every Seedance submission, and if the figure is
+above what Jon last approved, stop and tell him before spending.
