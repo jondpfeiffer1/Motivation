@@ -39,3 +39,14 @@ waffle. Does not spill onto the counter.
 - The machine opening by itself
 - A top lid lifting up, or a clamshell flip
 - Readable text on the funnel marking (AI garbles it) — keep it subtle and illegible
+
+## Listing facts (Jon, 17 Oct 2026 — from the Amazon page)
+- **Name:** Ninja NeverStick PRO Belgian Waffle Maker, Vertical Design · model **BW1001** · ASIN **B0B358VDZJ**
+- **Color:** Black & Silver · aluminum plates · PFAS-free, PFOA-free
+- **Size:** 7.72" D x 6.57" W x 11.9" H · 6.58 lb
+- **Power:** 1000 W, 120 V
+- **Settings:** 5 shade settings + an exclusive Specialty setting ("soft and fluffy to deliciously crispy")
+- **In the box:** waffle maker, PrecisionPour cup ("pour the perfect amount of batter"), recipe booklet
+- **Claims:** NeverStick — waffles won't stick; wipe-clean exterior; "no mess, every time"
+- **Proof:** 4.6 stars from 3,642 reviews · #4 in Waffle Irons · 1-year limited warranty
+- The storefront keeps using `https://amzn.to/4i2FVpN` untouched; the ASIN is recorded here only.
