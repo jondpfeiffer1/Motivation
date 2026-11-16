@@ -25,7 +25,16 @@ which caused it. Verified sequence: `primepick/products/waffle-maker-BW1001-oper
 | 5-10 | Beep, green light, front swings open, tongs lift the waffle | closed -> open, waffle released |
 | 10-15 | Syrup poured on the plated waffle | squares fill pocket by pocket |
 
-## v2 — approved by Jon and rendered 17 Oct
+## v2 — REJECTED by Jon (not professional)
+Higgsfield scene analysis of the render found four problems:
+- The camera was static in all three scenes, so it looks generated.
+- The waffle stood upright in the grid when the front came down; on the real machine it lies on the lowered plate.
+- The voiceover was crammed into 4–9s, and the last 6s had no voice.
+- The background was soft-focus, the cinematic AI look.
+
+Root cause: one ~900-token prompt for a 15s single render. The fix is the shot-by-shot process in `.claude/skills/primepick-daily/SKILL.md`.
+
+## v2 — rendered 17 Oct
 Built only from the verified footage.
 
 **Video:** https://d8j0ntlcm91z4.cloudfront.net/user_3BS4QwSWGvzraaxEX3W4To5MSsJ/hf_20261017_204716_1e2c3155-8573-4795-b693-2f729c8d6457.mp4

@@ -324,3 +324,47 @@ Listing photos show end states, not mechanics. On 17 Oct the waffle-maker render
 had the front plate open by itself; in reality a thumb presses a release on the
 left handle and a hand pulls the plate down 90 degrees. Jon rejected the video as
 not production-ready. Never describe a mechanism from still photos alone.
+
+## HIGGSFIELD SKILLS — 16 Nov 2026 (override the locked recipe wherever they conflict)
+Higgsfield's own skills are installed in `.claude/skills/higgsfield-*` (see
+`HIGGSFIELD-SOURCE.md`). Load `higgsfield-generate` before any render and follow it.
+Use the MCP tools in place of the CLI commands it shows.
+
+### Why the waffle video failed (Higgsfield scene analysis, 17 Oct)
+- **The camera was static in all three scenes.** The "handheld sway" paragraph was buried in
+  a ~900-token prompt and ignored. Higgsfield's guidance: **keep prompts under ~200 tokens.
+  Models distort with long prompts.**
+- **The waffle stood upright in the grid when the plate came down.** In reality it lies on the
+  lowered front plate. The prompt re-described the whole scene instead of the one motion.
+- **The voiceover was crammed.** Every line after the first landed in 4–9s, and the last 6s had
+  no voice. One 15s render cannot time a voiceover to shots.
+- **The background was soft-focus, the cinematic AI look,** although the storyboard asked for deep focus.
+
+### The new process — stills first, then one shot at a time
+1. **Product data.** Real listing photos + the verified operation file in `primepick/products/`.
+2. **Start frames.** One still per shot (`higgsfield-product-photoshoot`, mode
+   `closeup_product_with_person` for hands, or `gpt_image_2` with the listing photos), then the
+   de-slop pass. **Show Jon the stills and get an OK before any video credit is spent.**
+3. **Animate each shot separately.** `seedance_2_5`, `mode: omni_reference`,
+   `start_image` = the approved still, plus the listing photo as `image_references`, 5s, 9:16,
+   1080p, `generate_audio: true`. Cost is 80 credits per shot, so a 3-shot video is 240,
+   the same as one 15s render.
+   - The prompt describes **only the motion**. Do not re-describe the frame.
+   - **One action per shot**, under ~200 tokens.
+   - **Phrase positively**: "handheld phone, gentle sway, deep focus, tack sharp", not a
+     list of NEVERs.
+   - Put the voiceover line for **that shot only** in that shot's prompt.
+4. **Cut the shots together** with ffmpeg once Jon downloads them, or in CapCut.
+5. **QA before handing over.** Run `video_analysis_create` on every finished shot. It returns
+   a scene-by-scene description, which is the only way to see the render from this
+   environment. Check it against the verified operation. Redo **only** the failed shot.
+
+### Try Marketing Studio for product ads
+`higgsfield-generate` routes all branded and product ad video to Marketing Studio
+(`marketing_studio_video`): import the product from its Amazon URL (the fetch runs
+server-side), mode `ugc_how_to` or `product_showcase`, 9:16, `generate_audio: true`.
+Preflight the cost and compare with a Seedance shot before choosing. Its max resolution is 720p.
+
+### Credit discipline
+- Preflight every job. Never render a full video before the stills are approved.
+- Never re-render a whole video to fix one shot.
